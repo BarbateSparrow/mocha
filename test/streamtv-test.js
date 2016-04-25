@@ -47,7 +47,7 @@ describe('Login form tests', function() {
 
 	});
 
-	it('is login browser enabled', function() {
+	it('is login button enabled', function() {
 		return browser
 			.enterUserName("test")
 			.enterUserPassword("test")
