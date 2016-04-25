@@ -1,5 +1,5 @@
 {
-  "name": "mocha-hello",
+  "name": "streamtv-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,13 +14,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BarbateSparrow/mocha.git"
-  },
 
   "dependencies": {
     "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "wd": "^0.4.0"
   }
 }
