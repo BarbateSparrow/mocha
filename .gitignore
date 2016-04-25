@@ -1,1 +1,3 @@
-node-modules/*
+node-modules
+npm-debug.log*
+mocha.opts
