@@ -17,12 +17,6 @@ describe('Login form tests', function() {
 	chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 	var browser;
 
-	function initbr() {
-		return browser.init({
-			browserName: 'chrome'
-		});
-	}
-
 	before(function() {
 		browser = wd.promiseChainRemote();
 		buildPage(wd, LoginPage);
