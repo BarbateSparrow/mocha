@@ -6,7 +6,7 @@ var chaiAsPromised = require("chai-as-promised");
 var wd = require('wd');
 chai.use(require('chai-as-promised'));
 var should = chai.should();
-var assert = chai.assert
+var assert = chai.assert;
 var expect = chai.expect;
 
 var buildPage = require("../src/util");
